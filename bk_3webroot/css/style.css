@@ -1,0 +1,611 @@
+body {
+     background: #e4e4e4;
+     margin: 0;
+     padding: 0;
+     font-size: 14px;
+     scroll-behavior: smooth;
+}
+ [class*="col"] {
+     padding-left: 15px;
+     padding-right: 15px;
+}
+[class*="row"] {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.container-fluid{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+ a{
+     text-decoration: none;
+     color: #0e2479;
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+}
+ a:hover{
+     color: #ae0001;
+}
+ ul{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+h1 ,h2 ,h3, h4, h5, h6 ,p{
+    margin: 0;
+}
+ input::-webkit-input-placeholder {
+     color: #767676;
+}
+ input:-moz-placeholder {
+     color: #767676;
+}
+ input::-moz-placeholder {
+     color: #767676;
+}
+ input:-ms-input-placeholder {
+     color: #767676;   
+}
+ .login-form {
+     background: #FFF;
+     max-width: 660px;
+     height: 350px;
+     border-radius: 20px;
+     position: absolute;
+     left: 0;
+     right: 0;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+}
+ .logo {
+     text-align: center;
+     margin: 20px 0 15px 0;
+}
+ .form-content .form-right {
+     background: #ae0001;
+     float: left;
+     padding: 8px 0 0 0;
+     border-radius: 10px;
+}
+ .form-content .form-right .form-field {
+     width: 100%;
+     margin: 20px 0 ;
+     padding: 0;
+     border-radius: 10px;
+     box-shadow: 2px 4px 5px #56000f;
+     overflow: hidden;
+     border: none;
+     /* font-size: 22px; */
+     height: 48px;
+}
+ .form-content .form-right .form-field span {
+     width: 60px;
+     text-align: center;
+     float: left;
+     background: #e1e1e1;
+}
+ .form-content .form-right .form-field span img {
+     max-width: 100%;
+     margin: 0;
+     padding: 0;
+     height: 1;
+}
+ .form-content .form-right .form-field input{
+     height: 48px;
+     width: calc(100% - 60px);
+     margin: 0;
+     padding: 0 0 0 4%;
+     line-height: 100%;
+     border: none;
+     background: #FFF;
+     font-weight: bold;
+     font-size: 17px;
+
+}
+ .btn-login {
+     background: #ae0001;
+     color: #fff;
+     font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+     font-size: 20px;
+     text-transform: uppercase;
+     border-radius: 10px;
+     margin-top: 20px;
+     line-height: 100%;
+     height: auto;
+     padding: 10px 20px 6px 20px;
+}
+ .btn-login:hover {
+     color: #FFF;
+}
+ .img-responsive {
+     max-width: 100%;
+     display: inline-block;
+}
+ .login-footer {
+     width: 100%;
+     color: #333333;
+     text-align: center;
+     padding: 70px 0 0 0;
+     margin: 0 auto;
+}
+/* %%%%%%%%%% administrator_home %%%%%%%%%%%%%% */
+ .header-area {
+     background: #FFF;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     margin: 0;
+     box-shadow: 1px 1px 5px #666;
+     position: fixed;
+     width: 100%;
+     z-index: 100;
+     top: 0;
+     left: 0;
+}
+ .header-area li{
+     display: inline-block;
+     margin-right: 7px;
+}
+ .header-area li a {
+     font-size: 15px;
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+}
+.header-area li i{
+    margin-right: 3px;
+}
+ .header-area li a:hover{
+     color: #ae0001;
+     border-bottom: 1px solid #ae0001;
+}
+ .bodycontainer {
+     position: relative;
+     width: 100%;
+     height: 791px;
+     top: 100px;
+     opacity: 1;
+}
+ .panel-body{
+     max-width: 1210px;
+     width: 100%;
+     margin: 0 auto ;
+}
+ .dashboard .dashboard-list {
+     text-align: center;
+     padding: 20px 20px 20px 20px;
+}
+ .dashboard .dashboard-list a {
+     display: block;
+     padding: 30px 0 30px 0;
+     font-size: 19px;
+     font-weight: bold;
+     text-transform: uppercase;
+     border: 3px solid #FFFFFF;
+     border-radius: 10px;
+     outline: none;
+     color: #0e2479;
+     background: #FFFFFF;
+     background-size: cover;
+     box-shadow: 2px 2px 2px #CCC;
+}
+ .dashboard .dashboard-list a span {
+     font-size: 82px;
+     margin-bottom: 20px;
+     padding: 5px 0 0 0;
+     position: relative;
+     width: 100px;
+     height: 88px;
+     text-shadow: 2px 2px 2px #666;
+     transition: all 0.5s;
+     -webkit-transition: all 0.5s;
+}
+ .dashboard .dashboard-list:hover a span, .dashboard-list:hover a{
+     color:#ae0001;
+}
+ .panel-body .col-md-6{
+     padding: 0;
+}
+/* %%%%%%%%%% administrator_home %%%%%%%%%%%%%% */
+.adduser-sec {
+    padding-top: 100px;
+}
+.table-box{
+    border: 1px solid #ae0001;
+    width: 100%;
+    overflow: auto;
+}
+.adduser-table table{
+    background-color: #fff;
+    width: 100%;
+    min-width: 1100px; 
+    table-layout: fixed;
+}
+.adduser-table tr{
+    border-bottom: 1px solid #ddd;
+}
+.adduser-table thead{
+    background-color: #ae0001;
+    color: #fff;
+}
+.adduser-table th {
+    padding: 8px;
+    word-break: break-word;
+    vertical-align: top;
+}
+.adduser-table td{
+    padding: 8px;
+    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.adduser-table h4{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.adduser-table tr td:last-child{
+    text-align: end;
+}
+.adduser-table td button{
+    color: #fff;
+}
+.adduser-table td button:hover{
+    color: #fff;
+    box-sizing: none;
+}
+.dele-btn{
+    background-color: #ae0001;
+    color: #FFF;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0e2479;
+    border-color: #0e2479;
+}
+.dele-btn:hover{
+    color: #FFF;
+}
+/* %%%%%%%%%% pdf_management %%%%%%%%%%%%%% */
+.form-container{
+    margin-top: 5%;
+    margin-bottom: 30px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-container label{
+    text-align: right;
+}
+.form-wrap{
+    padding: 30px 20px 20px 30px;
+    background: #ae0001;
+    border-radius: 10px;
+}
+.pdf-manage .form-group{
+    margin:0 0 10px;
+    align-items: center;
+}
+.form-button {
+    text-align: right;
+    margin-top: 20px;
+}
+.form-container h4{
+    color: #333;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+}
+.form-style{
+    border: 1px solid #fff;
+    box-shadow: 2px 4px 5px #56000f;
+}
+.form-style:focus {
+    background-color: #fff;
+    border: 1px solid #fff;
+    outline: 0;
+    box-shadow: 2px 4px 5px #56000f;
+}
+/* %%%%%%%%%% templatereset %%%%%%%%%%%%%% */
+.templatereset table{
+    min-width: 650px;
+}
+.templatereset tr td:last-child {
+    text-align: inherit;
+}
+.templatereset-right ,
+.templatereset-dropdown{
+    padding: 50px 5% 40px;
+}
+.templatereset-dropdown  .row{
+    margin-top: 30px;
+}
+.selectClass {
+    max-width: 175px;
+    border-radius: 1px solid black;
+    border-radius: 5px;
+    height: 35px;
+}
+.templatereset .col-lg-4{
+    background-color: #f2f2f2;
+    height: 500px;
+}
+.templatereset .col-lg-8{
+    background-color: #D6DBDF;
+    height: 500px;
+}
+.reset-btn{
+    color: #fff;
+    background-color: #0e2479;
+    border-color: #0e2479;
+    margin-top: 40px;
+}
+.templatereset-heading h4{
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.templatereset-heading h4 span{
+    color: red;
+}
+.dashboard-sec form{
+    padding: 9% 0;
+}
+/* %%%%%%%%%% supervisor %%%%%%%%%%%%%% */
+.supervisor-home-btn a{
+    text-transform: capitalize;
+}
+.adduser-sec .page-link  {
+    background-color: #85C1E9;
+    border-radius: 0;
+    font-weight: bold;
+    color: black;
+    border: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    margin-top: 20px;
+}
+.adduser-sec .page-item.active .page-link {
+    background-color: #808B96;
+    color: white;
+}
+.adduser-sec .page-link:focus {
+    box-shadow: none  
+}
+.adduser-sec .page-link:hover{
+    background-color: transparent;
+}
+.search-box .input-group {
+    width: 150px;
+}
+.pdfentry-sec .form-control:focus ,
+.search-box .form-control:focus{
+    box-shadow: none;
+}
+.search-box .input-group-text{
+    
+}
+.pdfentry-sec .form-control,
+.search-box  .form-control{
+    border-radius: 5px;
+    padding: 0 5px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.search-box .input-group-text{
+    background-color: #fff;
+    border: 1px solid black;
+}
+.table-top{
+    background-color: #fff;
+    padding: 10px 0 ;
+}
+.supervisor_home tr td:last-child{
+    text-align: left;
+}
+.published-datetime{
+    background-color: #f5f2f2;
+    padding: 5px;
+}
+
+.supervisor-home-btn select{
+    padding: 4px 0;
+    border: 1px solid #f5f2f2;
+}
+.supervisor-home-btn select:focus{
+    box-shadow: none;
+}
+.all-check-box span {
+    margin: 0 10px;
+}
+.add-common-field hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #fff;
+}
+.all-check-box label{
+    text-align: left;
+}
+.add-new-template-table .adduser-table table{
+    min-width: auto;
+}
+.add-new-template-table .table-box {
+    color: #333;
+}
+.show-form{
+    display: none;
+}
+.addtemplate-sec .modal-header{
+    color: #0e2479;
+}
+.addtemplate-sec .modal-dialog{
+    max-width: 600px;
+}
+.addtemplate-sec .modal-body{
+    height: 300px;
+    overflow-y: auto;
+}
+.supervisor_home .modal-dialog{
+    max-width: 930px;
+    padding: 0 10px;
+}
+.header-area .dropdown button{
+    font-family: 'catamaransemibold';
+    font-size: 1.8rem;
+    text-transform: none;
+    color: #304A65;
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+/* ===================== pdfentry-sec   ==================== */
+.pdfentry-sec{
+    padding-top: 100px;
+}
+.pdfentry-body{
+    background: #FFF;
+    padding: 15px 0 ;
+}
+.pdfentry-sec .dropdown-btn{
+    min-width: 100%;
+    border: 0;
+    padding: 8px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+
+.dropdown-btn.dropdown-toggle::after{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%)
+}
+.pdfentry-sec-left-top{
+    background-color: #ae0001;
+    color: #fff;
+    padding: 15px;
+}
+.pdfentry-sec label{
+    color: red;
+    font-size: 20px;
+}
+.pdfentry-sec-left-btm .row{
+   padding: 5px 0;
+   border-bottom: 1px solid #dddddd;
+   margin: 0 ;
+}
+.pdfentry-sec-left-btm{
+    min-width: 700px;
+    border: 1px solid #ae0001;
+}
+.pdfentry-sec-left-btm-sec{
+    height: 500px;
+    overflow: scroll;
+}
+.file-upload{
+    width: 90px;
+}
+.pdfentry-sec-left-btm textarea{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .templatereset-right table ,
+    .adduser-table table{
+        min-width: 100%; 
+    }
+	.table-box table, 
+	.table-box thead, 
+	.table-box tbody, 
+	.table-box th, 
+	.table-box td, 
+	.table-box tr { 
+		display: block; 
+	}
+	.table-box thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.table-box tr { border: 1px solid #ccc; }
+   .adduser-sec .table-box tr td:last-child  {width: fit-content; margin: 0 auto; padding-left: 0;}
+	.table-box td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+	.table-box td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+	.table-box td:before { content: attr(data-title); }
+    .supervisor_home .table-box tr td:last-child  ,
+   .templatereset-right .table-box tr td:last-child  {
+        margin: 0;
+        padding-left: 50%;
+    }
+    .templatereset .col-lg-8 ,
+    .templatereset .col-lg-4{
+        height: fit-content;
+    }
+}
+
+/*******loader*****/
+#loader_section{
+  display:none;
+  width:100%;
+  position: fixed;
+  top: 0;
+  background: #000000b8;
+  z-index: 9999999;
+  height: 100vh;
+  padding: 30vh 0px;
+}
+#loader_section p{
+  color:#fff;
+  font-size:18px;
+  text-align: center;
+}
+#loader_section img{
+  width: 100px;
+  margin-bottom: 25px;
+}
+.exchangebox{
+    display: inline-block;
+    max-width: 300px;
+}
+.pagination {
+    display: inline-flex;
+    background-color: #85C1E9;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.pagination li{
+    padding: 5px 4px;
+}
+.exchange_div table {
+    min-width: 100%;
+    color: #000;
+}

@@ -1,0 +1,10 @@
+1)add id field in 'user_master' table
+
+2)ALTER TABLE `user_master` CHANGE `is_active` `is_active` ENUM('0','1') NOT NULL DEFAULT '1';
+
+3)2fa_key (text), 2fa_status(ENUM)(Y,N) field in 'user_master' table
+4)ALTER TABLE `user_master` CHANGE `user_password` `user_password` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;
+5) ALTER TABLE `exchange_master` CHANGE `exchange_master_code` `exchange_master_code` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL;
+6) ALTER TABLE `exchange_master` CHANGE `exchange_master_name` `exchange_master_name` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL;
+7) ALTER TABLE `ftp_management` CHANGE `id` `id` INT(10) NOT NULL AUTO_INCREMENT, add PRIMARY KEY (`id`);
+8) ALTER TABLE `pdf_management` CHANGE `id` `id` INT(10) NOT NULL AUTO_INCREMENT, add PRIMARY KEY (`id`);

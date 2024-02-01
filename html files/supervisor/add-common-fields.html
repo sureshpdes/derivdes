@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0,">
+    <title>add-common-fields</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <header class="header-area">
+        <section class="header-sec">
+            <div class="container-fluid ">
+                <div class="row mx-0  align-items-center">
+                    <div class="col-12 col-sm-4 col-md-3 col-lg-3 ">
+                        <a href="#"><img src="images/logo.png" alt="exchange data international" class="mw-100"></a>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-9 col-lg-9 text-md-end mt-3 mt-xl-0">
+                        <ul>
+                            <li>
+                                <a href="change_password.html"><i class="fa-sharp fa-solid fa-lock"></i> Change Password</a>
+                            </li>
+                            <li>
+                                <a href="supervisor_home.html"> <i class="fa-solid fa-house"></i>Home</a>
+                            </li>
+                            <li>
+                                <a href="login.html"> <i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="adduser-sec pdf-manage">
+            <div class="row mx-0  g-0 mt-lg-0 mt-5">
+                <div class="col-xl-6  col-lg-7 offset-lg-2 offset-xl-3">
+                    <div class="form-container">
+                        <div class="text-center">
+                            <h4>Add Common Fields</h4>
+                        </div>
+                        <div class="form-wrap">
+                            <form>
+                                <form>
+                                    <div class="form-group row mx-0 ">
+                                        <label class="control-label col-sm-3" for="userid"> Field Name : </label>
+                                        <div class="col-sm-9">
+                                            <input type="text" class="form-control form-style" placeholder="User ID">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row mx-0 ">
+                                        <label class="control-label col-sm-3" for="password">Field Type </label>
+                                        <div class="col-sm-9">
+                                            <select name="" id="" class="w-100 py-2 rounded">
+                                                <option value=""> text </option>
+                                                <option value=""> number </option>
+                                                <option value=""> date </option>
+                                            </select>
+                                            <input type="checkbox" id="showPassword">
+                                            <label for="showPassword" id="">Mandatory</label>
+                                        </div>
+                                    </div>
+                        </div>
+                        <div class=" form-button text-end">
+                            <button type="submit" class="btn btn-success"><i class="fa-solid fa-plus"></i>  Save</button>
+                            <button type="submit" class="btn  dele-btn"><i class="fa-solid fa-ban"></i>  Cancel</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="login-footer pt-0">Copyright &copy; 2017-2018 Derivative Data Acquisition Portal. All Rights
+                    Reserved.
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

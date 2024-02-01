@@ -1,0 +1,36 @@
+/********* notify bar ***********/
+
+.jquery-notify-bar {
+	position: fixed;
+	text-align: center; 
+	background-color: transparent; 
+	padding: 0px; 
+	width: 100%; 
+	color: #555; 
+	font-size: 18px; 
+	top: 0px; 
+	font-weight: bold;
+	left: 0px;
+	z-index:99999;
+}
+.jquery-notify-bar .error {
+	filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#db4444', endcolorstr='#bd3a3a'); 
+	background-color: #E77300; 
+	color: #fff0f0; 
+	text-shadow: 1px 1px 1px #bd3a3a;
+	padding:15px 0px;
+}
+.jquery-notify-bar .success {
+	filter: progid:dximagetransform.microsoft.gradient(startcolorstr='#8dc96f', endcolorstr='#509c4b'); 
+	background-color: #8dc96f; 
+	color: #fff; 
+	text-shadow: #509c4b 1px 1px 1px;	
+	padding:15px 0px;
+}
+.notify-bar-close {
+	position: absolute; 
+	font-size: 11px; 
+	left: 95%;
+	top: 18px;
+    color: #fff;
+}

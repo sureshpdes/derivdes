@@ -1,0 +1,362 @@
+@media (min-width: 1600px) {
+	.login_form_wrapper {
+		padding: 42% 30px 42%;
+	}
+	.login_sec .login-logo {
+		padding: 60px 0% 2%;
+	}
+	.bottom_heading {
+		padding: 40px 0px 70px;
+	}
+	.login_sec .login-content {
+		max-width: 485px !important;
+	}
+	.product_field label {
+		font-size: 18px;
+	}
+	.container {
+		max-width: 1450px;
+	}
+	.basic_middle {
+		padding: 15px 13% 15px 6%;
+	}
+	/*--------------------*/
+	.general_detail_top h1 {
+    font-size: 42px;
+	}
+	/*--------------------*/
+}
+@media(max-width:1400px)
+{
+.listview_left_block span {
+font-size:20px;
+}
+.listview_right {
+font-size:14px;
+}
+}
+@media (max-width: 1199px) {
+	.login_sec .login-content {
+		max-width: 500px !important;
+	}
+	.login_form_wrapper .email::after {
+		top: 4px;
+	}
+	.general_detail_top table tr td {
+		font-size: 20px;
+	}
+	.general_detail_top h1 {
+		font-size: 34px;
+	}
+	.right_icon ul li {
+		margin: 0px 1px;
+	}
+	.general_date table {
+		width: 90%;
+	}
+	.basic_left_block table tr td {
+		font-size: 18px;
+	}
+	.product_field label {
+		font-size: 16px;
+	}
+	.basic_middle {
+		padding: 0px 16px !important;
+	}
+	.basic_middle p {
+		font-size: 14px;
+	}
+	/*-------------------*/
+	.common_table table tr td {
+	font-size:14px;
+	}
+	.product_field .form-control {
+	 font-size:14px;
+	}
+	.common_table table tr th {
+		font-size: 20px;
+	}
+	}
+@media (max-width: 991px) {
+	.common_table table tr td {
+	font-size:12px;
+	}
+	.product_field .form-control {
+	 font-size:12px;
+	}
+	.meta_data_field table tr td{
+		padding: 10px 2px !important;
+	}
+	/*-------------------*/
+}
+@media (max-width: 991px) {
+	.login_sec .login-logo {
+		top: 10px;
+	}
+	.bottom_heading h4 {
+		font-size: 20px;
+	}
+	.login_form_wrapper .login_icon {
+		padding-bottom: 40px;
+	}
+	.general_detail_top h1 {
+		font-size: 20px;
+	}
+	.general_detail_top table {
+		width: 100%;
+		margin: 8px !important;
+	}
+	.general_detail_top table tr td {
+		font-size: 16px;
+	}
+	.general_date table {
+		width: 100%;
+	}
+	.common_table table tr td {
+		font-size: 12px;
+	}
+	.right_icon ul li img {
+		/*width: 22px;*/
+	}
+	.basic_right {
+		text-align: center;
+	}
+	.basic_middle p {
+		font-size: 14px;
+		text-align-last: center;
+	}
+	.basic_left_block table {
+		width: 100%;
+		text-align: center;
+	}
+	.product_field {
+		padding-bottom: 25px !important;
+	}
+	.product_field .py-3 {
+		padding: 10px 0px !important;
+	}
+	.general_basic_wrapper .col-lg-3 {
+		border-right: 0px solid #eeeeee;
+	}
+	.listview_action_table table tr th {
+		font-size: 14px;
+	}
+	.listview_action_table table tr td {
+		font-size: 14px;
+	}
+	.general_basic_wrapper .col-lg-2 {
+		border-right: 0px solid #eeeeee;
+	}
+	.general_basic_wrapper {
+		padding: 100px 25px 30px 25px;
+	}
+	/*-------------------*/
+	.meta_data_field .py-3 {
+    padding:10px 2px !important;
+	}
+	.common_table table tr th {
+		font-size: 16px;
+	}
+	.meta_data_field .py-3 {
+	padding:0px !important;
+	margin:4px 0px !important;
+	}
+	.meta_data_field table tr td {
+    padding: 0px 2px !important;
+	}
+	.bulk_meta_deta table tr {
+    padding-bottom: 10px;
+	}
+	/*-------------------*/
+}
+@media only screen and (max-width: 800px) {
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables tr { border: 1px solid #ccc; }
+	#no-more-tables td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+	}
+	#no-more-tables td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+	#no-more-tables td:before { content: attr(data-title); }
+	.brodcum_wrapper .search-container {
+	margin-top:15px;
+	}
+	.list_icon {
+	position:relative;
+	left:0px;
+	top:0px;
+	}
+}
+@media (max-width: 767px) {
+	.reset_link p {
+		text-align: center;
+	}
+	.form_btn .col-md-6 {
+		text-align: center;
+	}
+	.form_btn {
+		padding-top: 5px;
+	}
+	.bottom_heading h4 {
+		font-size: 20px;
+	}
+	.login-form {
+		padding: 10px 0px 10px 0px;
+	}
+	.login-form .btn {
+		padding: 12px;
+	}
+	.login_form_wrapper .login_icon {
+		padding-bottom: 20px;
+	}
+	.general_detail_top .col-lg-3 {
+		border-right: 0px solid #eeeeee;
+	}
+	.file-upload__label img {
+		width: 100px;
+	}
+	.general_basic {
+		padding: 0px 0px;
+	}
+	.general_detail_top table {
+		margin: 0px !important;
+	}
+	.basic_middle p {
+		text-align: center;
+		text-align-last: center;
+	}
+	.general_detail {
+		padding: 30px 5px;
+	}
+	.basic_middle {
+		padding: 0px 0px !important;
+	}
+	.right_icon ul {
+		text-align: left;
+		margin-top: 8px;
+	}
+	.list_icon img {
+		width: 80px;
+	}
+	.general_basic_wrapper {
+	padding: 75px 25px 15px 25px;
+	}
+	.basic_right img{
+	display:none;
+	}
+	/*====neo03====*/
+	.booking_main {
+	margin-bottom:45px;
+	}
+	.booking_wrapper {
+	padding-bottom:5px;
+	}
+	.booking_heading tr td {
+    padding: 2rem;
+	}
+	.heading_text {
+	font-size:20px;
+	}
+	.country_listing tr td:nth-child(2) {
+    width: auto;
+	}
+	.listing_qee h1 {
+	font-size:30px;
+	}
+	.listing_bg_wrapper {
+	margin-bottom:70px;
+	}
+	.right-panel .mb-5{
+	margin-bottom: 0rem !important;
+	}
+	.space_footer {
+	padding:0px 0px;
+	}
+	.user_listview .general_basic_wrapper {
+    padding: 25px 0px 10px;
+	}
+	.common_table table{
+	display:inline-block;
+	}
+	.common_table table tr{
+	display:inline-block;
+	}
+	.common_table table tr td{
+	display:inline-block;
+	width:100%;
+	}
+	.listview_table_wrapper {
+	padding: 0px 0px 0px 0px;
+	margin-top:15px;
+	}
+}
+
+@media (max-width: 580px) {
+	.login_form_wrapper .email::before {
+		left: -2px;
+	}
+	.login_form_wrapper .password::before {
+		left: -2px;
+	}
+	.login_form_wrapper .form-control {
+		padding: 14px 0px 13px 40px;
+	}
+	.bottom_heading h4 {
+		font-size: 17px;
+	}
+	.bottom_heading {
+		padding: 30px 0px 35px;
+	}
+	.listview_action_table table tr td:nth-child(3) {
+		display: none;
+	}
+	.listview_action_table table tr th:nth-child(3) {
+		display: none;
+	}
+	.listview_action_table table tr th {
+		font-size: 13px;
+	}
+	.listview_action_table table tr td {
+		font-size: 13px;
+	}
+	.general_detail {
+		padding: 30px 0px;
+	}
+	.common_table table tr td {
+		padding: 0px 5px;
+	}
+	/*---------------------------*/
+	.meta_data_field {
+	padding:5px 5px !important;
+	}
+	/*---------------------------*/
+}
+
+
+/*============================================*/
+
